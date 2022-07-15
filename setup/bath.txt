@@ -6,7 +6,7 @@ Inference:
 python inference_unet.py  -img_dir "./test_imgs" -model_path "./models/model_unet_vgg_16_best.pt" -model_type "vgg16" -out_pred_dir "./test_result"
 
 Training:
-python train_unet.py -data_dir PATH_TO_THE_DATASET_FOLDER -model_dir PATH_TO_MODEL_DIRECTORY -model_type resnet_101
+python train_unet.py -data_dir "img_data/crack_segmentation_dataset" -model_dir "./models/#1" -model_type vgg16
 
 git config --global user.email "linh9920duy@gmail.com"
 git config --global user.name "duylinh55555"
